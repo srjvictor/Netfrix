@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: rgb(190, 0, 190);
+}
+
+.background{
+    background-image: url('./Imagens/filmes.png');
+    height: 100vh;
+}
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+} 
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.menu{
+    display: flex;
+    color: rgb(243, 8, 223);
+    list-style: none;
+    gap: 40px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principais-caracteristicas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.principais-caracteristicas-grid div {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.principais-caracteristicas {
+    padding: 120px 0;
+    color: white;
+}
+
+.principais-caracteristicas .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.mais-desejados {
+    padding: 40px 0;
+}
+
+.mais-desejados .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mais-desejados-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.mais-desejados-grid img {
+    background-color: rgb(190, 0, 190);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.login-a {
+    position: absolute;
+    top: calc(50vh);
+}
+
+.login-a h1 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.login-a p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button {
+    cursor: pointer;
+    padding: 7px 11px;
+    transition: all .5s ease;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-orange {
+    background-color: #f30505;
+    border: 2px solid  #f30505;
+    color: white;
+}
+.button-orange:hover {
+    background-color: black;
+    color: #f30505;
+}
